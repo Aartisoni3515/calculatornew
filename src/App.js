@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+// import Calculator from "./component/Calculator";
+// import Weather from "./component/Weather";
+// import Form from "./component/Form";
+import NewPro from "./component/NewPro";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Calculator/> */}
+      {/* <Weather/> */}
+      {/* <Form/> */}
+      <NewPro/>
+    </>
   );
 }
 
 export default App;
+
